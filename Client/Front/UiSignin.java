@@ -49,6 +49,7 @@ public class UiSignin extends JFrame{
                 }
                 boolean isAccess = client.isLoginAccessBoolean();
                 if ( isAccess == true){
+                    System.out.println("dadaaaaash");
                     UiMessenger uiMessenger = new UiMessenger(client);
                 }
                 else

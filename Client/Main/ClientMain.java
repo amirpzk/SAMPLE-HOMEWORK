@@ -14,5 +14,6 @@ public class ClientMain {
         Client client = new Client() ;
         MultithreadedClient c = client.getClientThread();
         Signinout signinout = new Signinout(client);
+//        Signinout signinout = new Signinout();
     }
 }
